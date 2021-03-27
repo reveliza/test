@@ -36,7 +36,7 @@ function validate2stQ(){
 
     next.addEventListener('click', () => {
         var answer = document.querySelector('#slide-3 input');
-        if(answer.value.toLowerCase() === 'jā, tehnikumā ir kopmītnes') {
+        if(answer.value.toLowerCase() === 'jā, tehnikumā ir kopmītnes.') {
             switchSlides('slide-4', 'slide-3');
         } else {
             switchSlides('slide-1', 'slide-3');
