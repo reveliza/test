@@ -1,0 +1,29 @@
+.hidden {
+    display: none;
+}
+
+#root {
+    margin: 30px auto;
+    width: 70%;
+    text-align: center;
+}
+
+.slide img {
+    max-width: 100%;
+    max-height: 600px;
+}
+
+.slide input {
+    margin: 20px 0;
+}
+
+.single-letter-input {
+    display: flex;
+    justify-content: center;
+}
+
+.single-letter-input input {
+    width: 40px;
+    margin: 20px 10px;
+    text-align: center;
+}

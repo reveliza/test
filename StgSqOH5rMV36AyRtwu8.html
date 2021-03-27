@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="root">
+            <div id="slide-1">
+                <button type="button" class="btn btn-primary" id="slide-1-start">Sākt testu</button>
+            </div>
+            <div id="slide-2" class="hidden slide">
+                <h3>1. jautājums</h3>
+                <p>Rīgas Kultūras un izglītības darbinieku tehnikuma adrese:</p>
+                <input type="text" class="form-control input">
+                <button type="button" class="btn btn-primary next-slide" id="slide-2-next">Tālāk</button>
+            </div>
+            <div id="slide-3" class="hidden slide">
+                <h3>2. jautājums</h3>
+                <img src="./assets/2 uzd.png">
+                <input type="text" class="form-control input">
+                <button type="button" class="btn btn-primary next-slide" id="slide-3-next">Tālāk</button>
+            </div>
+            <div id="slide-4" class="hidden slide">
+                <h3>3. jautājums</h3>
+                <img src="./assets/3 uzd.png">
+                <div id="row1" class="single-letter-input">
+                    <input type="text" class="form-control input" maxlength="1">
+                    <input type="text" class="form-control input" maxlength="1">
+                    <input type="text" class="form-control input" maxlength="1">
+                    <input type="text" class="form-control input" maxlength="1">
+                </div>
+                <div id="row2" class="single-letter-input">
+                    <input type="text" class="form-control input" maxlength="1">
+                    <input type="text" class="form-control input" maxlength="1">
+                    <input type="text" class="form-control input" maxlength="1">
+                </div>
+                <div id="row3" class="single-letter-input">
+                    <input type="text" class="form-control input" maxlength="1">
+                    <input type="text" class="form-control input" maxlength="1">
+                    <input type="text" class="form-control input" maxlength="1">
+                </div>
+                <button type="button" class="btn btn-primary next-slide" id="slide-4-next">Tālāk</button>
+            </div>
+            <div id="slide-5" class="hidden slide">
+                <h3>4. jautājums</h3>
+                <img src="./assets/4 uzd.png">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
